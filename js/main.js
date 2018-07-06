@@ -18,7 +18,7 @@ $('form').on("submit",function(e){
 
     url: apiUrl,
     success: function(response){
-    $('h1').html("The current weather in " +city+ ', ' + country + " is " +response.main.temp);
+    $('h2').html("The current temperature in " +city+ ', ' + country + " is " +response.main.temp+ "F");
     console.log(response)// server response
   },
 

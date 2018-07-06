@@ -1,0 +1,50 @@
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+  font-family: 'Roboto Mono', monospace;
+  margin: 0 auto;
+}
+
+html{
+  font-size: 10px;
+  background: #eee;
+}
+
+header{
+  background: #fff;
+  border-bottom: .1px solid #000;
+  height: 60px;
+  padding: 10px;
+}
+
+header h1 {
+  font-size: 11px;
+  margin-top: 12px;
+  margin-left: 10px;
+}
+
+form{
+  background: #FFC217;
+  height: 45px;
+  width: 385px;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+input{
+  background: #fff;
+  width: 100px;
+}
+
+#enter{
+  width: 50px;
+}
+
+.return{
+  font-size: 1.2rem;
+  background: #fff;
+  height: 53px;
+  width: 385px;
+  padding: 10px;
+}
